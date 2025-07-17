@@ -14,3 +14,22 @@ This project aims to simplify the process of fine-tuning [Gemma](https://ai.goog
 - 📘 Include documentation, sample code, and tutorials
 
 ---
+
+## 🧱 System Architecture
+
+```mermaid
+graph TD
+    A[UI: Streamlit or Gradio]
+    B[Backend: Python Scripts]
+    C[Gemma Model via Hugging Face]
+    D[Data Input and Upload]
+    E[Training Logs and Outputs]
+    F[Model Export - TF / PyTorch / GGUF]
+    G[Optional: Google Cloud or Vertex AI]
+
+    A --> B
+    D --> B
+    B --> C
+    B --> E
+    C --> F
+    B --> G
