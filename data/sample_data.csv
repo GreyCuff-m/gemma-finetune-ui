@@ -1,0 +1,4 @@
+input_text,output_text
+"What is machine learning?","Machine learning is a field of AI that allows systems to learn from data."
+"What is Gemma?","Gemma is an open language model by Google for efficient customization and deployment."
+"Explain transfer learning.","Transfer learning allows a model trained on one task to be adapted to another task."
