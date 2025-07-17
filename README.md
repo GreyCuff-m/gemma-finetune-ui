@@ -13,6 +13,7 @@ This project aims to simplify the process of fine-tuning [Gemma](https://ai.goog
 - 🧠 Export models in TF, PyTorch, and GGUF formats
 - 📘 Include documentation, sample code, and tutorials
 
+
 ---
 
 ## 🧱 System Architecture
@@ -35,11 +36,4 @@ graph TD
     B --> G
 
 ---
-
-## 🧪 How to Run
-
-### Option 1: Run Locally
-```bash
-pip install -r requirements.txt
-streamlit run ui/app.py
 
