@@ -35,5 +35,4 @@ graph TD
     C --> F
     B --> G
 
----
 
