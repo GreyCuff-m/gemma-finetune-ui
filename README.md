@@ -33,3 +33,13 @@ graph TD
     B --> E
     C --> F
     B --> G
+
+---
+
+## 🧪 How to Run
+
+### Option 1: Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run ui/app.py
+
